@@ -45,7 +45,7 @@ function GreetingCard() {
       });
     } catch (err) {
       console.error('Error generating image:', err);
-      setAlert('Error generating image. Please try again.');
+      setAlert('Error generating image.');
     }
   };
 
@@ -64,12 +64,13 @@ function GreetingCard() {
   return (
     <div className="container">
 
-      {alert && <Alert color="danger">{alert}</Alert>}
+      {alert && <Alert color="danger" fade={false}>{alert}</Alert>}
+
       <div style={{
         position: 'relative',
         textAlign: 'center',
         marginBottom: '20px',
-        maxWidth: '600px',
+        maxWidth: '100%',
         margin: '0 auto',
       }}>
         {imageURL ? (
@@ -189,7 +190,7 @@ function GreetingCard() {
             marginTop: '1rem'
           }}
         >
-          Download Card
+          Download
         </Button>
       </Form>
     </div>
