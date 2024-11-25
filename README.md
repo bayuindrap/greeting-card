@@ -2,14 +2,16 @@
 
 2. npm install
 
-3. Select image for background (template) 
+3. npm start
 
-4. Input recepient name
+4. Select image for background (template) 
 
-5. input your message
+5. Input recepient name
 
-6. Input your name
+6. input your message
 
-7. see the result
+7. Input your name
 
-8. Download your image with clicking the download button.
+8. see the result
+
+9. Download your image with clicking the download button.
