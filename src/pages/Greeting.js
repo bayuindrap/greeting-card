@@ -149,12 +149,12 @@ function GreetingCard() {
           />
         </FormGroup>
         <FormGroup>
-          <Label for="dear">Name</Label>
+          <Label for="dear">To</Label>
           <Input
             type="text"
             name="dear"
             id="dear"
-            placeholder="Enter name"
+            placeholder="Enter recepient name"
             value={formState.dear}
             onChange={handleChange}
           />
